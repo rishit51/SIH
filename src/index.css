@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+.body{
+  padding:0;
+ 
+}
+.main{
+  margin:-10px;
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  height: fit-content;
+  background-color:#080C26 ;
+ color:#F25041;
+ flex-wrap: wrap;
+}
+.parametersPanel{
+  width:20%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #164F73;
+  margin:2%;
+  padding: 3%;
+  background-color: #0A3873;
+  border-radius: 25px;
+  
+}
+.parametersPanel h2 {
+  font-size: 2em; /* Set a default font size */
+  margin-bottom: 10px;
+}
+
+@media (max-width: 800px) {
+  .parametersPanel h2 {
+    font-size: 1.75em; /* Adjust font size for smaller screens */
+  }
+}
+
+
+@media (max-width: 660px) {
+  .parametersPanel h2 {
+    font-size: 1.5em; /* Adjust font size for smaller screens */
+  }
+}
+
+.parameterField{
+  flex-grow: 1;
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  
+}
+.Parameters{
+  margin-bottom: 5%;
+  min-height: 100px;
+  border: 1px solid rgb(171, 122, 122);
+  border-radius: 12px;
+  padding: 2%;
+  background-color:#BFBFBF;
+
+}
+
+.dragPreview{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid #164F73;
+  flex-grow: 1;
+  margin: 2%;
+  padding: 2%;
+  gap: 2%;
+  border-radius: 25px;
+  background-color:#0A3873 ;
+}
+.selectfield{
+  border: 2px dotted grey;
+  padding:2%;
+  height: 60px;
+  border-radius: 25px;
+  color: F2DEA2;
+  background-color: #080C26;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.imagePreview{
+ 
+  border: 2px solid #C1D4D9 ;
+  border-radius: 5px;
+  
+}
+.captions {
+  margin-left: 0; /* Adjust the margin as needed */
+ /* Set text color to white or a color that contrasts well with the background */
+ bottom: 0;
+  width: 100%;
+background-color: black;
+color: aliceblue;
+opacity: 0.8;
+}
+.ParametersPanel{
+  border: 4px solid ;
+  height:60%;
+  
+
+}
+
